@@ -15,7 +15,7 @@ screen.tracer(0)
 sanp = snake.Snake()
 khana = food.Food()
 scoreboard = Scoreboard(screenheight / 2)
-game_speed = 0.07
+game_speed = 0.1
 
 screen.listen()
 screen.onkey(sanp.up, "Up")
